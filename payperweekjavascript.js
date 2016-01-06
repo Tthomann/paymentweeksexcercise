@@ -26,3 +26,14 @@
 		overtimepay=multiplytwoNumbers(numoth,numotw);
 		console.log(overtimepay);
 		
+		function addtwoNumbers(pay,overtimepay){
+			var result;
+			result= pay + overtimepay;
+			return result;
+		}
+		var pay
+		var overtimepay
+		var totalpay;
+		totalpay=addtwoNumbers(pay,overtimepay)
+		console.log(totalpay);
+		
